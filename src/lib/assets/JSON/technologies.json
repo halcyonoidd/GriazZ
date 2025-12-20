@@ -1,0 +1,63 @@
+[
+    {
+        "name": "HTML5",
+        "icon": "/img/html.png",
+        "hoverColor": "orange-500"
+    },
+    {
+        "name": "CSS3",
+        "icon": "/img/css.png",
+        "hoverColor": "blue-500"
+    },
+    {
+        "name": "JavaScript",
+        "icon": "/img/javaScript.png",
+        "hoverColor": "yellow-400"
+    },
+    {
+        "name": "Svelte",
+        "icon": "/img/svelte.png",
+        "hoverColor": "orange-600"
+    },
+    {
+        "name": "Python",
+        "icon": "/img/python.png",
+        "hoverColor": "blue-400"
+    },
+    {
+        "name": "C++",
+        "icon": "/img/c++.png",
+        "hoverColor": "blue-600"
+    },
+    {
+        "name": "PostgreSQL",
+        "icon": "/img/sql.png",
+        "hoverColor": "cyan-400"
+    },
+    {
+        "name": "Tailwind",
+        "icon": "/img/tailwind.png",
+        "hoverColor": "teal-400"
+    },
+    {
+        "name": "Fedora",
+        "icon": "/img/fedora.png",
+        "hoverColor": "blue-500"
+    },
+    {
+        "name": "Github",
+        "icon": "/img/github.png",
+        "hoverColor": "white",
+        "needsBackground": true
+    },
+    {
+        "name": "Laravel",
+        "icon": "/img/laravel.png",
+        "hoverColor": "red-500"
+    },
+    {
+        "name": "PHP",
+        "icon": "/img/php.png",
+        "hoverColor": "purple-400"
+    }
+]

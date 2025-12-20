@@ -1,0 +1,14 @@
+[
+    {
+        "title": "Web Development Project",
+        "category": "Academic Project",
+        "date": "2023",
+        "description": "Successfully built a full-stack web application"
+    },
+    {
+        "title": "Programming Competition",
+        "category": "Competition",
+        "date": "2022",
+        "description": "Participated in university-level coding competition"
+    }
+]

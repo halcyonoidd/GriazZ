@@ -1,0 +1,14 @@
+[
+    {
+        "institution": "Universitas Negeri Surabaya",
+        "degree": "Bachelor of Computer Science",
+        "period": "2021 - Present",
+        "description": "Focus on Software Engineering and Web Development"
+    },
+    {
+        "institution": "SMA/SMK",
+        "degree": "High School",
+        "period": "2018 - 2021",
+        "description": "Science/Technology Major"
+    }
+]

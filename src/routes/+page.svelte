@@ -1,4 +1,7 @@
-
+<script lang="ts">
+    // Import data technologies dari file JSON
+    import technologies from '$lib/assets/JSON/technologies.json';
+</script>
 
 <section>
 
@@ -26,7 +29,7 @@
                 <div class="flex justify-between items-center">
                     <div>
                         <a href="#dataSection" class=" bg-transparent border-2 border-red-500 hover:bg-red-500 hover:text-white text-white font-semibold py-3 px-6 rounded-lg transition duration-300">Get To Know Me</a>
-                        <a href="/project" class="ml-4 bg-transparent border-2 border-white hover:bg-white hover:text-black text-white font-semibold py-3 px-6 rounded-lg transition duration-300">My Projects</a>
+                        <a href="/contact" class="ml-4 bg-transparent border-2 border-white hover:bg-white hover:text-black text-white font-semibold py-3 px-6 rounded-lg transition duration-300">Contact Me</a>
                     </div>
 
                     <div class="flex justify-end">
@@ -49,18 +52,18 @@
     <br>
 
 
-<div>
-    <div id="dataSection" class="py-16 relative overflow-hidden">
+
+    <div id="dataSection" class="py-65 relative overflow-hidden">
         <div class="absolute inset-0 -z-10">
-            <div class="absolute top-20 left-20 w-96 h-96 bg-gradient-to-br from-red-600/25 to-red-800/15 rounded-full blur-3xl"></div>
-            <div class="absolute bottom-20 right-20 w-96 h-96 bg-gradient-to-tl from-blue-600/25 to-blue-800/15 rounded-full blur-3xl"></div>
+            <div class="absolute top-60 left-20 w-96 h-96 bg-gradient-to-br from-red-600/25 to-red-800/15 rounded-full blur-3xl"></div>
+            <div class="absolute bottom-50 right-20 w-96 h-96 bg-gradient-to-tl from-blue-600/25 to-blue-800/15 rounded-full blur-3xl"></div>
 
-            <img src="/img/spiderweb2.png" alt="web kanan" class="absolute top-10 right-5 w-80 h-80 opacity-[0.3] rotate-12 animate-pulse pointer-events-none" style="animation-delay: 1s" />
-            <img src="/img/spiderweb2.png" alt="web kiri" class="absolute top-20 left-2 w-72 h-72 opacity-[0.3] rotate-12 animate-pulse pointer-events-none" style="animation-delay: 1s" />
+            <img src="/img/spiderweb2.png" alt="web kanan" class="absolute top-20 right-5 w-80 h-80 opacity-[0.3] rotate-12 animate-pulse pointer-events-none" style="animation-delay: 1s" />
+            <img src="/img/spiderweb2.png" alt="web kiri" class="absolute top-80 left-2 w-72 h-72 opacity-[0.3] rotate-12 animate-pulse pointer-events-none" style="animation-delay: 1s" />
 
 
-            <img src="/img/spider3.png" alt="spider kanan" class="absolute top-10 right-10 w-80 h-80 rotate-12 animate-pulse pointer-events-none" style="animation-delay: 1s" />
-            <img src="/img/spider3.png" alt="spider kiri" class="absolute top-20 left-20 w-72 h-72 rotate-45 animate-pulse pointer-events-none" style="animation-delay: 1s" />
+            <img src="/img/spider3.png" alt="spider kanan" class="absolute top-50 right-10 w-80 h-80 rotate-12 animate-pulse pointer-events-none" style="animation-delay: 1s" />
+            <img src="/img/spider3.png" alt="spider kiri" class="absolute top-80 left-20 w-72 h-72 rotate-45 animate-pulse pointer-events-none" style="animation-delay: 1s" />
             <img src="/img/spider3.png" alt="spider kiri" class="absolute bottom-20 left-10 w-96 h-96 -rotate-6 animate-pulse pointer-events-none" style="animation-delay: 1s" />
         </div>
         
@@ -95,7 +98,7 @@
                 <div class="space-y-6">
                     <h2 class="text-4xl font-bold mb-8">WHO AM I ?</h2>
                     
-                    <div class="space-y-4 text-sm md:text-lg leading-relaxed font-light text-gray-400 mb-10">
+                    <div class="space-y-4 text-sm md:text-lg leading-relaxed font-light text-gray-300 mb-10">
                         <p>I'm an undergraduate Computer Science student at Universitas Negeri Surabaya.</p>
                         <p>Programming is my passion, that's the reason I am working at the time of my academic career.</p>
                         <p>I like to play games and watch movies/series in my leisure time which is kinda fun and relaxing!</p>
@@ -103,7 +106,7 @@
                     </div>
                     
                     <div>
-                        <a href="/about" class="bg-transparent border-2 border-red-500 hover:bg-red-500 hover:text-white text-white font-semibold py-3 px-6 rounded-lg transition duration-300">Get To Know Me</a>
+                        <a href="/about" class="bg-transparent border-2 border-red-500 hover:bg-red-500 hover:text-white text-white font-semibold py-3 px-6 rounded-lg transition duration-300">View More</a>
                     </div>
                 </div>
 
@@ -128,68 +131,19 @@
                 <h2 class="text-5xl font-bold mb-20 text-white">Most Used Technologies</h2>
                 
                 <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6 md:gap-8">
-                    <div class="group relative flex flex-col items-center p-6 bg-gradient-to-br from-slate-800/60 to-slate-900/60 backdrop-blur-md rounded-2xl border border-white/10 transition-all duration-500 hover:-translate-y-3 hover:scale-105 hover:border-orange-500/70 hover:shadow-[0_8px_40px_rgba(249,115,22,0.4)] hover:bg-gradient-to-br hover:from-orange-500/10 hover:to-slate-900/60">
-                        <img src="/img/html.png" alt="HTML5" class="w-16 h-16 mb-4 object-contain transition-all duration-500 group-hover:scale-125 drop-shadow-lg">
-                        <span class="text-base font-medium text-gray-300 group-hover:text-white transition-colors">HTML5</span>
-                    </div>
-
-                    <div class="group relative flex flex-col items-center p-6 bg-gradient-to-br from-slate-800/60 to-slate-900/60 backdrop-blur-md rounded-2xl border border-white/10 transition-all duration-500 hover:-translate-y-3 hover:scale-105 hover:border-blue-500/70 hover:shadow-[0_8px_40px_rgba(59,130,246,0.4)] hover:bg-gradient-to-br hover:from-blue-500/10 hover:to-slate-900/60">
-                        <img src="/img/css.png" alt="CSS3" class="w-16 h-16 mb-4 object-contain transition-all duration-500 group-hover:scale-125 drop-shadow-lg">
-                        <span class="text-base font-medium text-gray-300 group-hover:text-white transition-colors">CSS3</span>
-                    </div>
-
-                    <div class="group relative flex flex-col items-center p-6 bg-gradient-to-br from-slate-800/60 to-slate-900/60 backdrop-blur-md rounded-2xl border border-white/10 transition-all duration-500 hover:-translate-y-3 hover:scale-105 hover:border-yellow-400/70 hover:shadow-[0_8px_40px_rgba(250,204,21,0.4)] hover:bg-gradient-to-br hover:from-yellow-400/10 hover:to-slate-900/60">
-                        <img src="/img/javaScript.png" alt="JavaScript" class="w-16 h-16 mb-4 object-contain transition-all duration-500 group-hover:scale-125 drop-shadow-lg">
-                        <span class="text-base font-medium text-gray-300 group-hover:text-white transition-colors">JavaScript</span>
-                    </div>
-
-                    <div class="group relative flex flex-col items-center p-6 bg-gradient-to-br from-slate-800/60 to-slate-900/60 backdrop-blur-md rounded-2xl border border-white/10 transition-all duration-500 hover:-translate-y-3 hover:scale-105 hover:border-orange-600/70 hover:shadow-[0_8px_40px_rgba(234,88,12,0.4)] hover:bg-gradient-to-br hover:from-orange-600/10 hover:to-slate-900/60">
-                        <img src="/img/svelte.png" alt="Svelte" class="w-16 h-16 mb-4 object-contain transition-all duration-500 group-hover:scale-125 drop-shadow-lg">
-                        <span class="text-base font-medium text-gray-300 group-hover:text-white transition-colors">Svelte</span>
-                    </div>
-
-                    <div class="group relative flex flex-col items-center p-6 bg-gradient-to-br from-slate-800/60 to-slate-900/60 backdrop-blur-md rounded-2xl border border-white/10 transition-all duration-500 hover:-translate-y-3 hover:scale-105 hover:border-blue-400/70 hover:shadow-[0_8px_40px_rgba(96,165,250,0.4)] hover:bg-gradient-to-br hover:from-blue-400/10 hover:to-slate-900/60">
-                        <img src="/img/python.png" alt="Python" class="w-16 h-16 mb-4 object-contain transition-all duration-500 group-hover:scale-125 drop-shadow-lg">
-                        <span class="text-base font-medium text-gray-300 group-hover:text-white transition-colors">Python</span>
-                    </div>
-
-                    <div class="group relative flex flex-col items-center p-6 bg-gradient-to-br from-slate-800/60 to-slate-900/60 backdrop-blur-md rounded-2xl border border-white/10 transition-all duration-500 hover:-translate-y-3 hover:scale-105 hover:border-blue-600/70 hover:shadow-[0_8px_40px_rgba(37,99,235,0.4)] hover:bg-gradient-to-br hover:from-blue-600/10 hover:to-slate-900/60">
-                        <img src="/img/c++.png" alt="C++" class="w-16 h-16 mb-4 object-contain transition-all duration-500 group-hover:scale-125 drop-shadow-lg">
-                        <span class="text-base font-medium text-gray-300 group-hover:text-white transition-colors">C++</span>
-                    </div>
-
-                    <div class="group relative flex flex-col items-center p-6 bg-gradient-to-br from-slate-800/60 to-slate-900/60 backdrop-blur-md rounded-2xl border border-white/10 transition-all duration-500 hover:-translate-y-3 hover:scale-105 hover:border-cyan-400/70 hover:shadow-[0_8px_40px_rgba(34,211,238,0.4)] hover:bg-gradient-to-br hover:from-cyan-400/10 hover:to-slate-900/60">
-                        <img src="/img/sql.png" alt="SQL" class="w-16 h-16 mb-4 object-contain transition-all duration-500 group-hover:scale-125 drop-shadow-lg">
-                        <span class="text-base font-medium text-gray-300 group-hover:text-white transition-colors">PostgreSQL</span>
-                    </div>
-
-                    <div class="group relative flex flex-col items-center p-6 bg-gradient-to-br from-slate-800/60 to-slate-900/60 backdrop-blur-md rounded-2xl border border-white/10 transition-all duration-500 hover:-translate-y-3 hover:scale-105 hover:border-teal-400/70 hover:shadow-[0_8px_40px_rgba(45,212,191,0.4)] hover:bg-gradient-to-br hover:from-teal-400/10 hover:to-slate-900/60">
-                        <img src="/img/tailwind.png" alt="Tailwind" class="w-16 h-16 mb-4 object-contain transition-all duration-500 group-hover:scale-125 drop-shadow-lg">
-                        <span class="text-base font-medium text-gray-300 group-hover:text-white transition-colors">Tailwind</span>
-                    </div>
-
-                    <div class="group relative flex flex-col items-center p-6 bg-gradient-to-br from-slate-800/60 to-slate-900/60 backdrop-blur-md rounded-2xl border border-white/10 transition-all duration-500 hover:-translate-y-3 hover:scale-105 hover:border-blue-500/70 hover:shadow-[0_8px_40px_rgba(59,130,246,0.4)] hover:bg-gradient-to-br hover:from-blue-500/10 hover:to-slate-900/60">
-                        <img src="/img/fedora.png" alt="Fedora" class="w-16 h-16 mb-4 object-contain transition-all duration-500 group-hover:scale-125 drop-shadow-lg">
-                        <span class="text-base font-medium text-gray-300 group-hover:text-white transition-colors">Fedora</span>
-                    </div>
-
-                    <div class="group relative flex flex-col items-center p-6 bg-gradient-to-br from-slate-800/60 to-slate-900/60 backdrop-blur-md rounded-2xl border border-white/10 transition-all duration-500 hover:-translate-y-3 hover:scale-105 hover:border-white/70 hover:shadow-[0_8px_40px_rgba(255,255,255,0.3)] hover:bg-gradient-to-br hover:from-white/10 hover:to-slate-900/60">
-                        <img src="/img/github.png" alt="Github" class="w-16 h-16 mb-4 object-contain transition-all duration-500 group-hover:scale-125 drop-shadow-lg bg-white rounded-full p-1"> 
-                        <span class="text-base font-medium text-gray-300 group-hover:text-white transition-colors">Github</span>
-                    </div>
-
-                    <div class="group relative flex flex-col items-center p-6 bg-gradient-to-br from-slate-800/60 to-slate-900/60 backdrop-blur-md rounded-2xl border border-white/10 transition-all duration-500 hover:-translate-y-3 hover:scale-105 hover:border-red-500/70 hover:shadow-[0_8px_40px_rgba(239,68,68,0.4)] hover:bg-gradient-to-br hover:from-red-500/10 hover:to-slate-900/60">
-                        <img src="/img/laravel.png" alt="Laravel" class="w-16 h-16 mb-4 object-contain transition-all duration-500 group-hover:scale-125 drop-shadow-lg">
-                        <span class="text-base font-medium text-gray-300 group-hover:text-white transition-colors">Laravel</span>
-                    </div>
-
-                    <div class="group relative flex flex-col items-center p-6 bg-gradient-to-br from-slate-800/60 to-slate-900/60 backdrop-blur-md rounded-2xl border border-white/10 transition-all duration-500 hover:-translate-y-3 hover:scale-105 hover:border-purple-400/70 hover:shadow-[0_8px_40px_rgba(168,85,247,0.4)] hover:bg-gradient-to-br hover:from-purple-400/10 hover:to-slate-900/60">
-                        <img src="/img/php.png" alt="PHP" class="w-16 h-16 mb-4 object-contain transition-all duration-500 group-hover:scale-125 drop-shadow-lg">
-                        <span class="text-base font-medium text-gray-300 group-hover:text-white transition-colors">PHP</span>
-                    </div>
+                    {#each technologies as tech}
+                        <div class="group relative flex flex-col items-center p-6 bg-gradient-to-br from-slate-800/60 to-slate-900/60 backdrop-blur-md rounded-2xl border border-white/10 transition-all duration-500 hover:-translate-y-3 hover:scale-105 hover:border-{tech.hoverColor}/70 hover:shadow-[0_8px_40px_rgba(249,115,22,0.4)] hover:bg-gradient-to-br hover:from-{tech.hoverColor}/10 hover:to-slate-900/60">
+                            <img 
+                                src={tech.icon} 
+                                alt={tech.name} 
+                                class="w-16 h-16 mb-4 object-contain transition-all duration-500 group-hover:scale-125 drop-shadow-lg {tech.needsBackground ? 'bg-white rounded-full p-1' : ''}"
+                            >
+                            <span class="text-base font-medium text-gray-300 group-hover:text-white transition-colors">{tech.name}</span>
+                        </div>
+                    {/each}
                 </div>
             </div>
     </div>
-</div>
+
 
 </section>
