@@ -1,6 +1,7 @@
 <script lang="ts">
 	import favicon from '$lib/assets/favicon.svg';
 	import '../app.css';
+    import Particles from '$lib/assets/components/Particles.svelte';
 
 	let { children } = $props();
 </script>
@@ -35,9 +36,14 @@
     </nav>
 </div>
 
+
+
 <main class="flex-1">
-		{@render children()}
+    <Particles className="fixed inset-0 -z-10 pointer-events-none" quantity={1000} staticity={70} ease={30} size={0.5} color="#ff0000" vx={0.02} vy={0.02} />
+    {@render children()}
 </main>
+
+<hr/>
 
 <footer class="mt-4 p-4 text-center">
 		<p>&copy; 2025 agriazz</p>

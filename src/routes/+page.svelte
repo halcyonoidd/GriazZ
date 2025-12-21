@@ -1,12 +1,8 @@
 <script lang="ts">
-    // Import data technologies dari file JSON
     import technologies from '$lib/assets/JSON/technologies.json';
 </script>
 
 <section>
-
-    <hr>
-
     <div id="mainSection" class="bg-[url('/img/milesMorales.gif')] bg-cover bg-center min-h-screen flex flex-col bg-blend-overlay bg-black/80">
         <main class="flex-grow flex items-center justify-center">
             <div class="text-left text-white px-4 mr-25">
@@ -44,25 +40,26 @@
                 </div>
             </div>
 
-            <div class="bg-[url('/img/fotoAgri2.jpg')] bg-cover bg-center bg-black/60 hidden md:block w-1/3 h-96 rounded-lg mr-10"></div>
+            <div class="bg-[url('/img/fotoAgri2.jpg')] bg-cover bg-center bg-black/60 hidden md:block w-1/3 h-96 rounded-lg mr-10 hover:rotate-0 hover:scale-105 transition-all duration-500"></div>
         </main>
     </div>
 
-    <hr/>
-    <br>
+
+
+    <hr class="border-red-700"/>
 
 
 
-    <div id="dataSection" class="py-65 relative overflow-hidden">
+    <div id="dataSection" class="py-45 relative overflow-hidden">
         <div class="absolute inset-0 -z-10">
-            <div class="absolute top-60 left-20 w-96 h-96 bg-gradient-to-br from-red-600/25 to-red-800/15 rounded-full blur-3xl"></div>
-            <div class="absolute bottom-50 right-20 w-96 h-96 bg-gradient-to-tl from-blue-600/25 to-blue-800/15 rounded-full blur-3xl"></div>
+            <div class="absolute top-50 left-20 w-96 h-96 bg-gradient-to-br from-red-600/25 to-red-800/15 rounded-full blur-3xl"></div>
+            <div class="absolute bottom-20 right-20 w-96 h-96 bg-gradient-to-tl from-blue-600/25 to-blue-800/15 rounded-full blur-3xl"></div>
 
-            <img src="/img/spiderweb2.png" alt="web kanan" class="absolute top-20 right-5 w-80 h-80 opacity-[0.3] rotate-12 animate-pulse pointer-events-none" style="animation-delay: 1s" />
-            <img src="/img/spiderweb2.png" alt="web kiri" class="absolute top-80 left-2 w-72 h-72 opacity-[0.3] rotate-12 animate-pulse pointer-events-none" style="animation-delay: 1s" />
+            <img src="/img/spiderweb2.png" alt="web kanan" class="absolute top-30 right-5 w-80 h-80 opacity-[0.3] rotate-12 animate-pulse pointer-events-none" style="animation-delay: 1s" />
+            <img src="/img/spiderweb2.png" alt="web kiri" class="absolute top-60 left-2 w-72 h-72 opacity-[0.3] rotate-12 animate-pulse pointer-events-none" style="animation-delay: 1s" />
 
 
-            <img src="/img/spider3.png" alt="spider kanan" class="absolute top-50 right-10 w-80 h-80 rotate-12 animate-pulse pointer-events-none" style="animation-delay: 1s" />
+            <img src="/img/spider3.png" alt="spider kanan" class="absolute top-80 right-10 w-80 h-80 rotate-12 animate-pulse pointer-events-none" style="animation-delay: 1s" />
             <img src="/img/spider3.png" alt="spider kiri" class="absolute top-80 left-20 w-72 h-72 rotate-45 animate-pulse pointer-events-none" style="animation-delay: 1s" />
             <img src="/img/spider3.png" alt="spider kiri" class="absolute bottom-20 left-10 w-96 h-96 -rotate-6 animate-pulse pointer-events-none" style="animation-delay: 1s" />
         </div>
@@ -106,16 +103,19 @@
                     </div>
                     
                     <div>
-                        <a href="/about" class="bg-transparent border-2 border-red-500 hover:bg-red-500 hover:text-white text-white font-semibold py-3 px-6 rounded-lg transition duration-300">View More</a>
+                        <a href="/about" class="bg-transparent border-2 border-red-500 hover:bg-red-500 hover:text-white text-white font-semibold py-3 px-6 rounded-lg transition duration-300">Learn More About Me</a>
                     </div>
                 </div>
 
             </div>
         </div>
     </div>
-    <br>
 
-    <div id="techSection" class="py-20 relative overflow-hidden">
+
+
+    <hr/>
+
+    <div id="techSection" class="py-30 relative overflow-hidden">
 
         
             <div class="absolute inset-0 -z-10">
@@ -132,7 +132,7 @@
                 
                 <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6 md:gap-8">
                     {#each technologies as tech}
-                        <div class="group relative flex flex-col items-center p-6 bg-gradient-to-br from-slate-800/60 to-slate-900/60 backdrop-blur-md rounded-2xl border border-white/10 transition-all duration-500 hover:-translate-y-3 hover:scale-105 hover:border-{tech.hoverColor}/70 hover:shadow-[0_8px_40px_rgba(249,115,22,0.4)] hover:bg-gradient-to-br hover:from-{tech.hoverColor}/10 hover:to-slate-900/60">
+                        <div class="group relative flex flex-col items-center p-6 bg-gradient-to-br from-slate-800/60 to-slate-900/60 backdrop-blur-md rounded-2xl border border-white/10 transition-all duration-500 hover:-translate-y-3 hover:scale-105 hover:border-{tech.hoverColor}/70 hover:shadow-[0_8px_40px_rgba(255,255,255,0.4)] hover:bg-gradient-to-br hover:from-{tech.hoverColor}/10 hover:to-slate-900/60">
                             <img 
                                 src={tech.icon} 
                                 alt={tech.name} 

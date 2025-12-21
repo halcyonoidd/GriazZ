@@ -1,14 +1,14 @@
 [
     {
-        "title": "Web Development Project",
-        "category": "Academic Project",
-        "date": "2023",
-        "description": "Successfully built a full-stack web application"
+        "title": "INSYFEST UI/UX Competition",
+        "category": "Competition",
+        "date": "2025",
+        "description": "Achieved 3rd Place in the INSYFEST UI/UX Design Competition"
     },
     {
-        "title": "Programming Competition",
+        "title": "Capture The Flag Competition on WRECK IT 6.0",
         "category": "Competition",
-        "date": "2022",
-        "description": "Participated in university-level coding competition"
+        "date": "2025",
+        "description": "Participated in the Capture The Flag (CTF) competition during WRECK IT 6.0 event"
     }
 ]

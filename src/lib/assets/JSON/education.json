@@ -2,13 +2,19 @@
     {
         "institution": "Universitas Negeri Surabaya",
         "degree": "Bachelor of Computer Science",
-        "period": "2021 - Present",
-        "description": "Focus on Software Engineering and Web Development"
+        "period": "2024 - Present",
+        "description": "Focusing on software development, data structures, algorithms, and programming through academic projects."
     },
     {
-        "institution": "SMA/SMK",
-        "degree": "High School",
+        "institution": "SMA Negeri 6 Tangerang",
+        "degree": "High School (Science Major)",
+        "period": "2021 - 2024",
+        "description": "High school graduate with a Science (MIPA) background, building a strong foundation in mathematics and logical thinking."
+    },
+    {
+        "institution": "Pesantren Tahfidz Daarul Qur'an",
+        "degree": "Junior High School",
         "period": "2018 - 2021",
-        "description": "Science/Technology Major"
+        "description": "Junior high school graduate from a Tahfidz Islamic boarding school with strong discipline and structured thinking."
     }
 ]
