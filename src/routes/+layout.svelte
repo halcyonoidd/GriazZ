@@ -43,7 +43,7 @@
     {@render children()}
 </main>
 
-<hr/>
+<hr class="border-red-700"/>
 
 <footer class="mt-4 p-4 text-center">
 		<p>&copy; 2025 agriazz</p>

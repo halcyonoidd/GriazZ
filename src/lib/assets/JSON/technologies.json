@@ -1,63 +1,59 @@
 [
     {
         "name": "HTML5",
-        "icon": "/img/html.png",
-        "hoverColor": "orange-500"
+        "icon": "/img/html.png"
     },
     {
         "name": "CSS3",
-        "icon": "/img/css.png",
-        "hoverColor": "blue-500"
+        "icon": "/img/css.png"
     },
     {
         "name": "JavaScript",
-        "icon": "/img/javaScript.png",
-        "hoverColor": "yellow-400"
+        "icon": "/img/javaScript.png"
     },
     {
         "name": "Svelte",
-        "icon": "/img/svelte.png",
-        "hoverColor": "orange-600"
+        "icon": "/img/svelte.png"
     },
     {
         "name": "Python",
-        "icon": "/img/python.png",
-        "hoverColor": "blue-400"
+        "icon": "/img/python.png"
     },
     {
         "name": "C++",
-        "icon": "/img/c++.png",
-        "hoverColor": "blue-600"
+        "icon": "/img/c++.png"
     },
     {
         "name": "PostgreSQL",
-        "icon": "/img/sql.png",
-        "hoverColor": "cyan-400"
+        "icon": "/img/sql.png"
     },
     {
         "name": "Tailwind",
-        "icon": "/img/tailwind.png",
-        "hoverColor": "teal-400"
+        "icon": "/img/tailwind.png"
     },
     {
         "name": "Fedora",
-        "icon": "/img/fedora.png",
-        "hoverColor": "blue-500"
+        "icon": "/img/fedora.png"
     },
     {
         "name": "Github",
         "icon": "/img/github.png",
-        "hoverColor": "white",
         "needsBackground": true
     },
     {
         "name": "Laravel",
-        "icon": "/img/laravel.png",
-        "hoverColor": "red-500"
+        "icon": "/img/laravel.png"
     },
     {
         "name": "PHP",
-        "icon": "/img/php.png",
-        "hoverColor": "purple-400"
+        "icon": "/img/php.png"
+    },
+    {
+        "name": "TypeScript",
+        "icon": "/img/typescript.png"
+    },
+    {
+        "name": "React.js",
+        "icon": "/img/reactJS.png"
     }
 ]
