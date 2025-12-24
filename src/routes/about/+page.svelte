@@ -11,7 +11,7 @@
 </script>
 
 <section class="py-25 px-4">
-    <div id="dataSection" class="max-w-3xl mx-auto mb-16 p-8 bg-gradient-to-br from-red-900/20 to-black/80 backdrop-blur-sm rounded-lg shadow-2xl border border-red-500/30 relative z-10">
+    <div id="dataSection" class="max-w-3xl mx-auto mb-16 p-8 bg-gradient-to-br from-red-900/20 to-black/80 backdrop-blur-sm rounded-lg shadow-2xl border border-red-500/30 relative z-10 hover:scale-[1.02] transition-transform duration-300">
         <h2 class="text-3xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-red-500 via-red-400 to-cyan-400">About Me</h2>
         <p class="text-gray-100 mb-4 leading-relaxed">
             I'm Agri Azzukhruf, an undergraduate Computer Science student at Universitas Negeri Surabaya with passionate to learn how to create beautiful and functional web applications.
@@ -26,8 +26,8 @@
         </div>
     </div>
 
-    <div id="vision" class="max-w-3xl mx-auto mb-16 p-8 bg-gradient-to-br from-gray-900/80 to-black/80 backdrop-blur-sm rounded-lg shadow-2xl border border-cyan-500/30 relative z-10 group">
-        <div class="absolute -top-4 -right-4 text-6xl opacity-20 group-hover:opacity-40 transition-opacity duration-300">🕷️</div>
+    <div id="vision" class="max-w-3xl mx-auto mb-16 p-8 bg-gradient-to-br from-gray-900/80 to-black/80 backdrop-blur-sm rounded-lg shadow-2xl border border-cyan-500/30 relative z-10 group hover:scale-[1.02] transition-transform duration-300">
+        <div class="absolute -top-4 -right-4 text-6xl opacity-20 group-hover:opacity-50 transition-opacity duration-300">🕷️</div>
         <h3 class="text-2xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-red-500">My Vision</h3>
         <p class="text-gray-100 mb-4 leading-relaxed">
             Just like Miles Morales learning to master his spider abilities, I'm navigating the vast web of IT and software development. From coding algorithms to building responsive interfaces, every debugging session is a training montage, every successful deployment is a victory against bugs and errors.
@@ -36,8 +36,8 @@
             With great technology comes great responsibility - I'm committed to writing clean code, building accessible applications, and creating digital solutions that truly matter. Join me as I swing through APIs, databases, and frameworks in this endless tech universe! 
         </p>
     </div>
-
-    <div id="journeySection" class="max-w-3xl mx-auto bg-gradient-to-b from-gray-900/80 to-black/80 backdrop-blur-sm rounded-lg shadow-2xl overflow-hidden border border-gray-700/50 relative z-10">
+    
+    <div id="journeySection" class="max-w-3xl mx-auto bg-gradient-to-b from-gray-900/80 to-black/80 backdrop-blur-sm rounded-lg shadow-2xl overflow-hidden border border-gray-700/50 relative z-10 ">
         <nav class="flex border-b-2 border-red-600/50 bg-black/50">
             <button
                 on:click={() => changeTab('education')}
@@ -64,7 +64,7 @@
                 <div class="space-y-6">
                     <h3 class="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-cyan-400 mb-4">My Education</h3>
                     {#each educationData as edu}
-                        <div class="bg-gray-800/40 p-6 rounded-lg shadow-lg border border-red-500/20 hover:border-cyan-400/40 transition-all duration-300 hover:shadow-red-500/20">
+                        <div class="bg-gray-800/40 p-6 rounded-lg shadow-lg border border-red-500/20 hover:border-cyan-400/40 transition-all duration-300 hover:shadow-red-500/20 hover:scale-[1.02] transition-transform duration-300">
                             <h4 class="text-xl font-semibold text-gray-100 mb-2">{edu.institution}</h4>
                             <p class="text-red-400 font-medium mb-1">{edu.degree}</p>
                             <p class="text-sm text-cyan-400 mb-3">{edu.period}</p>
@@ -78,7 +78,7 @@
                 <div class="space-y-6">
                     <h3 class="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-cyan-400 mb-4">My Organizations</h3>
                     {#each organizationData as org}
-                        <div class="bg-gray-800/40 p-6 rounded-lg shadow-lg border border-red-500/20 hover:border-cyan-400/40 transition-all duration-300 hover:shadow-red-500/20">
+                        <div class="bg-gray-800/40 p-6 rounded-lg shadow-lg border border-red-500/20 hover:border-cyan-400/40 transition-all duration-300 hover:shadow-red-500/20 hover:scale-[1.02] transition-transform duration-300">
                             <h4 class="text-xl font-semibold text-gray-100 mb-2">{org.name}</h4>
                             <p class="text-red-400 font-medium mb-1">{org.role}</p>
                             <p class="text-sm text-cyan-400 mb-3">{org.period}</p>
@@ -92,7 +92,7 @@
                 <div class="space-y-6">
                     <h3 class="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-cyan-400 mb-4">My Achievements</h3>
                     {#each achievementData as achievement}
-                        <div class="bg-gray-800/40 p-6 rounded-lg shadow-lg border border-red-500/20 hover:border-cyan-400/40 transition-all duration-300 hover:shadow-red-500/20">
+                        <div class="bg-gray-800/40 p-6 rounded-lg shadow-lg border border-red-500/20 hover:border-cyan-400/40 transition-all duration-300 hover:shadow-red-500/20 hover:scale-[1.02] transition-transform duration-300">
                             <h4 class="text-xl font-semibold text-gray-100 mb-2">{achievement.title}</h4>
                             <p class="text-red-400 font-medium mb-1">{achievement.category}</p>
                             <p class="text-sm text-cyan-400 mb-3">{achievement.date}</p>
