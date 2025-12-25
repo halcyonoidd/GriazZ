@@ -43,9 +43,7 @@
     {@render children()}
 </main>
 
-<hr class="border-red-700"/>
-
-<footer class="mt-4 p-4 text-center">
+<footer class="mt-4 p-4 text-center" style="background-color: #050A18; border-top: 1px solid rgba(255, 255, 255, 0.05);">
 		<p>&copy; 2025 agriazz</p>
 </footer>
 

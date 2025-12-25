@@ -46,7 +46,7 @@
 
 
 
-    <hr class="border-red-700"/>
+
 
 
 
@@ -113,7 +113,6 @@
 
 
 
-    <hr class="border-red-700"/>
 
     <div id="techSection" class="py-30 relative overflow-hidden">
 

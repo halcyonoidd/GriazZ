@@ -204,11 +204,14 @@
                             <div class="flex gap-3 overflow-x-auto pb-1">
                                 {#each galleryImages as img, idx}
                                     <button
-                                        class={`relative flex-shrink-0 w-24 h-16 rounded-lg overflow-hidden border transition ${idx === activeGalleryIndex ? 'border-white' : 'border-white/10 hover:border-white/40'}`}
+                                        class={`relative flex-shrink-0 w-24 h-16 rounded-lg overflow-hidden border transition ${idx === activeGalleryIndex ? 'border-2 border-blue-400 ring-2 ring-blue-400' : 'border-white/10 hover:border-white/40'}`}
                                         aria-label={`Lihat gambar ${idx + 1}`}
                                         on:click={() => (activeGalleryIndex = idx)}
                                     >
                                         <img src={img} alt={`Thumbnail ${idx + 1}`} class="w-full h-full object-cover" />
+                                        {#if idx === activeGalleryIndex}
+                                            <span class="absolute inset-0 rounded-lg ring-2 ring-blue-400 pointer-events-none"></span>
+                                        {/if}
                                     </button>
                                 {/each}
                             </div>
