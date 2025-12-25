@@ -1,38 +1,67 @@
-# sv
+# GriazZ - Personal Portfolio
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+This is the source code repository for **GriazZ**, a modern and responsive personal portfolio website. This project is built using **SvelteKit** (Svelte 5) and **Tailwind CSS v4** with full **TypeScript** support.
 
-## Creating a project
+## 🚀 Technologies Used
 
-If you're seeing this, you've probably already done this step. Congrats!
+This project utilizes the latest modern web technologies:
 
-```sh
-# create a new project in the current directory
-npx sv create
+* **[SvelteKit](https://kit.svelte.dev/)**: The meta-framework for Svelte.
+* **[Svelte 5](https://svelte.dev/)**: The latest version of the UI component library.
+* **[Tailwind CSS v4](https://tailwindcss.com/)**: A utility-first CSS framework for rapid styling.
+* **[TypeScript](https://www.typescriptlang.org/)**: JavaScript superset for type safety.
+* **[Vite](https://vitejs.dev/)**: Next-generation frontend tooling.
 
-# create a new project in my-app
-npx sv create my-app
-```
+## 📂 Features & Structure
 
-## Developing
+The website includes the following pages (based on the routing structure):
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+* **Home** (`/`): The main landing page.
+* **About** (`/about`): Information about the portfolio owner, experience, and education.
+* **Projects** (`/project`): A showcase gallery of projects (Daichino, Gearnix, Pasarku, etc.).
+* **Contact** (`/contact`): Contact page.
 
-```sh
-npm run dev
+Content data (Projects, Achievements, Education) is managed centrally via JSON files located in `src/lib/assets/JSON/` for easy updates.
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+## 🛠️ Installation & Setup
 
-## Building
+Follow these steps to run the project locally on your machine:
 
-To create a production version of your app:
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+    cd your-repo-name
+    ```
 
-```sh
+2.  **Install dependencies:**
+    Make sure you have Node.js installed.
+    ```bash
+    npm install
+    ```
+
+3.  **Start the development server:**
+    ```bash
+    npm run dev
+    ```
+
+4.  **Open in browser:**
+    Visit the link shown in your terminal (usually `http://localhost:5173`).
+
+## 📜 Available Scripts
+
+Here are the `npm` scripts defined in `package.json`:
+
+| Command | Description |
+| :--- | :--- |
+| `npm run dev` | Starts the development server (Vite). |
+| `npm run build` | Builds the app for production. |
+| `npm run preview` | Runs a local preview of the production build. |
+| `npm run check` | Checks for TypeScript and Svelte errors (linting). |
+| `npm run check:watch` | Checks for errors in real-time while coding. |
+
+## 📦 Build & Deployment
+
+To create a production version of this app:
+
+```bash
 npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
