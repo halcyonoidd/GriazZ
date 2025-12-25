@@ -143,25 +143,11 @@
                                 {selectedProject.fullDescription}
                             </p>
 
-                            {#if selectedProject.link}
-                                <a
-                                    class="inline-flex items-center justify-center gap-2 px-4 py-3 bg-white text-gray-900 rounded-lg font-semibold hover:bg-gray-200 transition w-fit"
-                                    href={selectedProject.link}
-                                    target="_blank"
-                                    rel="noreferrer"
-                                >
-                                    View Project
-                                    <span aria-hidden="true">→</span>
-                                </a>
-                            {/if}
+                            
                         </div>
 
 
                         <div class="space-y-3 bg-white/5 border border-white/10 rounded-xl p-4">
-                            <div>
-                                <p class="text-sm text-gray-400">Status</p>
-                                <p class="text-white font-semibold">Live</p>
-                            </div>
                             <div>
                                 <p class="text-sm text-gray-400">Tech Stack</p>
                                 <div class="flex flex-wrap gap-2">
@@ -179,6 +165,18 @@
                             </div>
                             {/if}
                         </div>
+
+                        {#if selectedProject.link}
+                                <a
+                                    class="inline-flex items-center justify-center gap-2 px-4 py-3 bg-white text-gray-900 rounded-lg font-semibold hover:bg-gray-200 transition w-fit"
+                                    href={selectedProject.link}
+                                    target="_blank"
+                                    rel="noreferrer"
+                                >
+                                    View Project
+                                    <span aria-hidden="true">→</span>
+                                </a>
+                            {/if}
                     </div>
                 </div>
 

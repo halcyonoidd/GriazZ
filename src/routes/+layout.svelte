@@ -39,7 +39,7 @@
 
 
 <main class="flex-1">
-    <Particles className="fixed inset-0 -z-10 pointer-events-none" quantity={1000} staticity={70} ease={30} size={0.5} color="#ff0000" vx={0.02} vy={0.02} />
+    <Particles className="fixed inset-0 -z-10 pointer-events-none" quantity={1000} staticity={40} ease={30} size={0.5} color="#ff0000" vx={0.02} vy={0.02} />
     {@render children()}
 </main>
 

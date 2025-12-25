@@ -2,7 +2,7 @@
   {
     "title": "Portfolio Website",
     "description": "A personal portfolio website showcasing my projects, skills, and experiences.",
-    "fullDescription": "This portfolio website is built using Svelte, Tailwind CSS, and TypeScript. It features a clean and modern design, responsive layout, and smooth animations. The website includes sections for about me, skills, projects, and contact information. It also has a gallery showcasing screenshots of my projects.",
+    "fullDescription": "I developed GriazZ as a personal portfolio platform to demonstrate my technical proficiency and journey as a Computer Science student. Built using modern web technologies like Vite for optimal performance, the project features a responsive, dark-themed interface that prioritizes user experience and accessibility. I designed this repository to serve as a living showcase of my work, proving my ability to translate clean code into a functional, aesthetically pleasing application that stands out in the digital landscape.",
     "image": "/img/Portofolio_landing.png",
     "gallery": ["/img/Portofolio_landing.png", "/img/Portofolio_about.png", "/img/Portofolio_tech.png", "/img/Portofolio_projects.png"],
     "link": "https://github.com/halcyonoidd/GriazZ",
@@ -11,7 +11,7 @@
   {
     "title": "DaichiNo",
     "description": "DaichiNo is a Japanese restaurant website that provides information about the menu, location, and reservations.",
-    "fullDescription": "DaichiNo is a fully responsive website built with PHP and Laravel for the backend, and JavaScript with React.js for the frontend. The website features an interactive menu, location map, and online reservation system. It is designed to provide a seamless user experience across all devices.",
+    "fullDescription": "I built DaichiNo to demonstrate my proficiency in architecting complex web applications using PHP and Laravel. This project features a comprehensive restaurant management system, including secure user authentication, a cart and checkout mechanism, and an interactive booking platform for exclusive dining experiences. By integrating a PostgreSQL database with a responsive frontend built on Bulma, I created a scalable solution that prioritizes performance, clean code structure, and an intuitive user experience.",
     "image": "/img/Daichino_landing.png",
     "gallery": ["/img/Daichino_landing.png", "/img/Daichino_login.png", "/img/Daichino_createAccount.png", "/img/Daichino_menuPage.png", "/img/Daichino_aboutPage.png", "/img/Daichino_aboutPage2.png", "/img/Daichino_contactPage.png", "/img/Daichino_reservationPage.png", "/img/Daichino_addCart.png", "/img/Daichino_cart.png", "/img/Daichino_payment.png", "/img/Daichino_profil.png", "/img/Daichino_detailProfil.png", "/img/Daichino_adminPage.png", "/img/Daichino_usersAdminPage.png", "/img/Daichino_reservationsAdminPage.png", "/img/Daichino_addReservation.png"],
     "link": "https://github.com/halcyonoidd/DaichiNo",
@@ -20,7 +20,7 @@
   {
     "title": "Kopi Hari Ini",
     "description": "Kopi Hari Ini is a coffee shop management system that helps manage orders and inventory.",
-    "fullDescription": "Kopi Hari Ini is developed using HTML5, CSS3, and JavaScript. The system allows coffee shop owners to efficiently manage customer orders, track inventory levels, and generate sales reports. The user-friendly interface ensures that staff can quickly navigate through the system to enhance operational efficiency.",
+    "fullDescription": "Designed as a digital storefront for a specialty coffee brand, Kopi Hari Ini is a client-side web application crafted to enhance user engagement. The project features a fully interactive product catalog with real-time search capabilities, an integrated contact system with Google Maps, and a seamless responsive layout. By utilizing pure JavaScript for interactivity and Feather Icons for visual clarity, I created a lightweight, fast-loading platform that effectively communicates the brand's story and product value.",
     "image": "/img/Kopihariini_landing.png",
     "gallery": ["/img/Kopihariini_landing.png", "/img/Kopihariini_about.png", "/img/Kopihariini_menu.png", "/img/Kopihariini_contact.png"],
     "link": "https://github.com/halcyonoidd/Kopi-Hari-Ini.",
@@ -29,7 +29,7 @@
   {
     "title": "Gearnix Store",
     "description": "Gearnix Store is an e-commerce platform for selling gaming accessories.",
-    "fullDescription": "Gearnix Store is built with HTML5, CSS3, and JavaScript to provide a seamless shopping experience for gamers. The platform features a wide range of gaming accessories, secure payment options, and an easy-to-navigate interface. Customers can browse products, read reviews, and make purchases with ease.",
+    "fullDescription": "I built GearNix to demonstrate mastery of core web technologies by engineering a fully functional e-commerce site using only HTML5, CSS3, and Vanilla JavaScript. This project features a custom-built state management system for the shopping cart, modal-based product details, and a dynamic search filter. By leveraging efficient DOM manipulation and modern CSS techniques alongside Bootstrap, I created a lightweight, high-performance application that prioritizes speed and code efficiency.",
     "image": "/img/Gearnix_landing.png",
     "gallery": ["/img/Gearnix_landing.png", "/img/Gearnix_categories.png", "/img/Gearnix_products.png", "/img/Gearnix_detailProducts.png", "/img/Gearnix_cart.png", "/img/Gearnix_profil.png", "/img/Gearnix_checkout.png", "/img/Gearnix_history.png", "/img/Gearnix_detailHistory.png", "/img/Gearnix_detailHistory2.png"],
     "link": "https://github.com/halcyonoidd/GearNix",
@@ -56,7 +56,7 @@
   {
     "title": "PasarKu",
     "description": "PasarKu is a simple marketplace application that connects buyers and sellers in a local community.",
-    "fullDescription": "PasarKu is a simple marketplace application that connects buyers and sellers in a local community.",
+    "fullDescription": "I engineered PasarKu as a comprehensive desktop e-commerce application to demonstrate advanced Object-Oriented Programming (OOP) principles in Python. Built with the Tkinter GUI library, the system implements core concepts such as Inheritance, Polymorphism, and Encapsulation to create a secure and modular architecture. I designed a dual-role environment where users can seamlessly interact as Sellers managing inventory or Buyers processing transactions, proving my ability to translate complex theoretical concepts into a functional, user-friendly software solution.",
     "image": "/img/Pasarku_landing.png",
     "gallery": ["/img/Pasarku_landing.png", "/img/Pasarku_dashboardPenjual.png", "/img/Pasarku_dashboardPenjual2.png", "/img/Pasarku_dashboardPembeli.png", "/img/Pasarku_dashboardPembeli2.png"],
     "link": "https://github.com/halcyonoidd/PasarKu",
