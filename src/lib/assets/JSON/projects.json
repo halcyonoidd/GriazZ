@@ -6,6 +6,7 @@
     "image": "/img/Portofolio_landing.png",
     "gallery": ["/img/Portofolio_landing.png", "/img/Portofolio_about.png", "/img/Portofolio_tech.png", "/img/Portofolio_projects.png"],
     "link": "https://griazz.netlify.app",
+    "source": "https://github.com/halcyonoidd/GriazZ",
     "technologies": ["Svelte", "Tailwind", "TypeScript"]
   },
   {
@@ -15,6 +16,7 @@
     "image": "/img/Daichino_landing.png",
     "gallery": ["/img/Daichino_landing.png", "/img/Daichino_login.png", "/img/Daichino_createAccount.png", "/img/Daichino_menuPage.png", "/img/Daichino_aboutPage.png", "/img/Daichino_aboutPage2.png", "/img/Daichino_contactPage.png", "/img/Daichino_reservationPage.png", "/img/Daichino_addCart.png", "/img/Daichino_cart.png", "/img/Daichino_payment.png", "/img/Daichino_profil.png", "/img/Daichino_detailProfil.png", "/img/Daichino_adminPage.png", "/img/Daichino_usersAdminPage.png", "/img/Daichino_reservationsAdminPage.png", "/img/Daichino_addReservation.png"],
     "link": "https://github.com/halcyonoidd/DaichiNo",
+    "source": "https://github.com/halcyonoidd/DaichiNo",
     "technologies": ["PHP", "Laravel", "JavaScript", "React.js", "PostgreSQL"]
   },
   {
@@ -24,6 +26,7 @@
     "image": "/img/Kopihariini_landing.png",
     "gallery": ["/img/Kopihariini_landing.png", "/img/Kopihariini_about.png", "/img/Kopihariini_menu.png", "/img/Kopihariini_contact.png"],
     "link": "https://github.com/halcyonoidd/Kopi-Hari-Ini.",
+    "source": "https://github.com/halcyonoidd/Kopi-Hari-Ini.",
     "technologies": ["HTML5", "CSS3", "JavaScript"]
   },
   {
@@ -33,6 +36,7 @@
     "image": "/img/Gearnix_landing.png",
     "gallery": ["/img/Gearnix_landing.png", "/img/Gearnix_categories.png", "/img/Gearnix_products.png", "/img/Gearnix_detailProducts.png", "/img/Gearnix_cart.png", "/img/Gearnix_profil.png", "/img/Gearnix_checkout.png", "/img/Gearnix_history.png", "/img/Gearnix_detailHistory.png", "/img/Gearnix_detailHistory2.png"],
     "link": "https://github.com/halcyonoidd/GearNix",
+    "source": "https://github.com/halcyonoidd/GearNix",
     "technologies": ["HTML5", "CSS3", "JavaScript"]
   },
   {
@@ -42,6 +46,7 @@
     "image": "/img/CV_landing.png",
     "gallery": ["/img/CV_landing.png", "/img/CV_landing2.png"],
     "link": "https://github.com/halcyonoidd/cvCreative",
+    "source": "https://github.com/halcyonoidd/cvCreative",
     "technologies": ["HTML5", "CSS3"]
   },
   {
@@ -51,6 +56,7 @@
     "image": "/img/Clock_landing.png",
     "gallery": ["/img/Clock_landing.png"],
     "link": "https://github.com/halcyonoidd/Simple-Clock",
+    "source": "https://github.com/halcyonoidd/Simple-Clock",
     "technologies": ["HTML5", "CSS3", "JavaScript"]
   },
   {
@@ -60,6 +66,7 @@
     "image": "/img/Pasarku_landing.png",
     "gallery": ["/img/Pasarku_landing.png", "/img/Pasarku_dashboardPenjual.png", "/img/Pasarku_dashboardPenjual2.png", "/img/Pasarku_dashboardPembeli.png", "/img/Pasarku_dashboardPembeli2.png"],
     "link": "https://github.com/halcyonoidd/PasarKu",
+    "source": "https://github.com/halcyonoidd/PasarKu",
     "technologies": ["Python"]
   }
 ]

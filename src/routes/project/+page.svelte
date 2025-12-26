@@ -162,10 +162,10 @@
                                 </div>
                                 {/if}
                             </div>
-                            {#if selectedProject.link}
+                            {#if selectedProject.source}
                                 <a
                                     class="inline-flex items-center justify-center gap-2 px-4 py-3 bg-white text-gray-900 rounded-lg font-semibold hover:bg-gray-200 transition w-fit min-w-[150px] h-fit"
-                                    href={selectedProject.link}
+                                    href={selectedProject.source}
                                     target="_blank"
                                     rel="noreferrer"
                                 >
