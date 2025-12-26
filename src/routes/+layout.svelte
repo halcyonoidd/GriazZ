@@ -1,13 +1,13 @@
 <script lang="ts">
-    import logo from '$lib/assets/GriazZ.jpeg';
-    import '../app.css';
+	import favicon from '$lib/assets/GriazZ.jpeg';
+	import '../app.css';
     import Particles from '$lib/assets/components/Particles.svelte';
 
-    let { children } = $props();
+	let { children } = $props();
 </script>
 
 <svelte:head>
-    <link rel="icon" href={logo} />
+    <link rel="icon" href="{favicon}" />
 </svelte:head>
 
 <section>
@@ -17,8 +17,8 @@
         <div class="mx-auto flex max-w-7xl items-center">
             <div class="flex w-full justify-between items-center">
                 
-                <a href="/" class="flex items-center gap-2">
-                    <img src={logo} alt="GriazZ Logo" class="h-10 w-auto rounded shadow" />
+                <a href="/" class="text-2xl font-bold tracking-tight text-white transition-colors duration-300 hover:text-red-500">
+                    agriazz
                 </a>
                 <ul class="flex flex-row flex-wrap gap-2 md:flex-row md:space-x-8 md:gap-0 items-center" id="navMenu">
                     <li>
