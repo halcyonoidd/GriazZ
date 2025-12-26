@@ -5,7 +5,7 @@
 <section>
     <div id="mainSection" class="bg-[url('/img/milesMorales.gif')] bg-cover bg-center min-h-screen flex flex-col bg-blend-overlay bg-black/80">
         <main class="flex-grow flex items-center justify-center">
-            <div class="text-left text-white px-4 mr-25">
+            <div class="text-left text-white px-4 mr-25 mt-25 mb-10">
                 <h1 class="text-5xl font-bold mb-2 text-left">Agri Azzukhruf</h1>
                     <p class="text-lg text-gray-400 mb-7">Surabaya, Indonesia</p>
                     <p class="text-lg mb-8 max-w-2xl mx-auto text-left">

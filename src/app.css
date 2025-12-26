@@ -1,33 +1,6 @@
-main {
-	margin-top: 4.5rem;
-}
-
-@media (max-width: 600px) {
-	main {
-		margin-top: 3.5rem;
-	}
-}
-@media (max-width: 600px) {
-	/* Tab navigation horizontal scroll fix */
-	#journeySection nav {
-		display: flex;
-		flex-wrap: nowrap;
-		overflow-x: auto;
-		-webkit-overflow-scrolling: touch;
-		scrollbar-width: thin;
-		scrollbar-color: #222 #111;
-	}
-	#journeySection nav button {
-		min-width: 140px;
-		flex: 0 0 auto;
-		font-size: 1rem;
-		white-space: nowrap;
-	}
-}
 @import 'tailwindcss';
 
 @media (max-width: 600px) {
-	/* Hero action buttons and social icons spacing fix */
 	#mainSection .flex.justify-between.items-center {
 		flex-direction: column !important;
 		align-items: flex-start !important;
@@ -46,6 +19,20 @@ main {
 	}
 	#mainSection a.ml-4 {
 		margin-left: 0 !important;
+	}
+	#journeySection nav {
+		display: flex;
+		flex-wrap: nowrap;
+		overflow-x: auto;
+		-webkit-overflow-scrolling: touch;
+		scrollbar-width: thin;
+		scrollbar-color: #222 #111;
+	}
+	#journeySection nav button {
+		min-width: 140px;
+		flex: 0 0 auto;
+		font-size: 1rem;
+		white-space: nowrap;
 	}
 }
 

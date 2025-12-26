@@ -136,39 +136,35 @@
                         </div>
                     </div>
 
-                    <div class="grid md:grid-cols-[2fr,1fr] gap-6 p-6 md:p-8 bg-gray-950/90">
-                        <div class="space-y-4">
-                            <p class="text-sm text-gray-400">Project Overview</p>
-                            <p class="text-gray-200 leading-relaxed text-base md:text-lg">
-                                {selectedProject.fullDescription}
-                            </p>
-
-                            
-                        </div>
-
-
-                        <div class="space-y-3 bg-white/5 border border-white/10 rounded-xl p-4">
-                            <div>
-                                <p class="text-sm text-gray-400">Tech Stack</p>
-                                <div class="flex flex-wrap gap-2">
-                                    {#each selectedProject.technologies ?? [] as tech}
-                                    <span class="px-2 py-1 bg-gray-800 rounded text-xs text-gray-200">{tech}</span>
-                                    {/each}
+                    <div class="w-full">
+                        <div class="w-full flex flex-col gap-6 p-6 md:p-12 bg-gray-950/90">
+                            <div class="space-y-4 w-full">
+                                <p class="text-sm text-gray-400">Project Overview</p>
+                                <p class="text-gray-200 leading-relaxed text-base md:text-lg w-full">
+                                    {selectedProject.fullDescription}
+                                </p>
+                            </div>
+                            <div class="space-y-3 bg-white/5 border border-white/10 rounded-xl p-4 w-full">
+                                <div>
+                                    <p class="text-sm text-gray-400">Tech Stack</p>
+                                    <div class="flex flex-wrap gap-2">
+                                        {#each selectedProject.technologies ?? [] as tech}
+                                        <span class="px-2 py-1 bg-gray-800 rounded text-xs text-gray-200">{tech}</span>
+                                        {/each}
+                                    </div>
                                 </div>
+                                {#if selectedProject.link}
+                                <div>
+                                    <p class="text-sm text-gray-400">Primary Link</p>
+                                    <a class="text-white hover:text-gray-200 underline break-all" href={selectedProject.link} target="_blank" rel="noreferrer">
+                                        {selectedProject.link}
+                                    </a>
+                                </div>
+                                {/if}
                             </div>
                             {#if selectedProject.link}
-                            <div>
-                                <p class="text-sm text-gray-400">Primary Link</p>
-                                <a class="text-white hover:text-gray-200 underline" href={selectedProject.link} target="_blank" rel="noreferrer">
-                                    {selectedProject.link}
-                                </a>
-                            </div>
-                            {/if}
-                        </div>
-
-                        {#if selectedProject.link}
                                 <a
-                                    class="inline-flex items-center justify-center gap-2 px-4 py-3 bg-white text-gray-900 rounded-lg font-semibold hover:bg-gray-200 transition w-fit"
+                                    class="inline-flex items-center justify-center gap-2 px-4 py-3 bg-white text-gray-900 rounded-lg font-semibold hover:bg-gray-200 transition w-fit min-w-[150px] h-fit"
                                     href={selectedProject.link}
                                     target="_blank"
                                     rel="noreferrer"
@@ -177,6 +173,7 @@
                                     <span aria-hidden="true">→</span>
                                 </a>
                             {/if}
+                        </div>
                     </div>
                 </div>
 
