@@ -6,7 +6,7 @@
 	font-family: 'Fira Code', monospace;
 }
 
-
+/* Responsive Design */
 @media (max-width: 1024px) {
 	html {
 		font-size: 16px;
@@ -68,5 +68,4 @@
 	.text-3xl {
 		font-size: 1.25rem !important;
 	}
-}
 }
