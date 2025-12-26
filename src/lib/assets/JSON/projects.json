@@ -5,7 +5,7 @@
     "fullDescription": "I developed GriazZ as a personal portfolio platform to demonstrate my technical proficiency and journey as a Computer Science student. Built using modern web technologies like Vite for optimal performance, the project features a responsive, dark-themed interface that prioritizes user experience and accessibility. I designed this repository to serve as a living showcase of my work, proving my ability to translate clean code into a functional, aesthetically pleasing application that stands out in the digital landscape.",
     "image": "/img/Portofolio_landing.png",
     "gallery": ["/img/Portofolio_landing.png", "/img/Portofolio_about.png", "/img/Portofolio_tech.png", "/img/Portofolio_projects.png"],
-    "link": "https://github.com/halcyonoidd/GriazZ",
+    "link": "https://griazz.netlify.app",
     "technologies": ["Svelte", "Tailwind", "TypeScript"]
   },
   {
