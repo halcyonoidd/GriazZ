@@ -4,7 +4,7 @@
     "description": "A task management application to help users organize and prioritize their daily activities.",
     "fullDescription": "myTasks is a simple web application for personal productivity management. It helps users organize daily tasks, store important notes, and track wishlists in one centralized platform.",
     "image": "/img/myTasks_landing.png",
-    "gallery": ["/img/myTasks_landing", "/img/myTasks_register.png", "/img/myTasks_login.png", "/img/myTasks_dashboard.png", "/img/myTasks_task.png", "/img/myTasks_notes.png", "/img/myTasks_wishlist.png"],
+    "gallery": ["/img/myTasks_landing.png", "/img/myTasks_register.png", "/img/myTasks_login.png", "/img/myTasks_dashboard.png", "/img/myTasks_tasks.png", "/img/myTasks_notes.png", "/img/myTasks_wishlist.png"],
     "link": "https://github.com/halcyonoidd/myTasks",
     "source": "https://github.com/halcyonoidd/myTasks",
     "technologies": ["PHP", "Laravel", "JavaScript", "Tailwind", "PostgreSQL"]
