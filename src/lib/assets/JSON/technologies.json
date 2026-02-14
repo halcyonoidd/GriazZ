@@ -30,5 +30,17 @@
     {
         "name": "Python",
         "icon": "/img/python.png"
+    },
+    {
+        "name": "JavaScript",
+        "icon": "/img/javaScript.png"
+    },
+    {
+        "name": "Typescript",
+        "icon": "/img/typescript.png"
+    },
+    {
+        "name": "React",
+        "icon": "/img/reactJS.png"
     }
 ]
