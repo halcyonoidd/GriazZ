@@ -26,5 +26,9 @@
     {
         "name": "PHP",
         "icon": "/img/php.png"
+    },
+    {
+        "name": "Python",
+        "icon": "/img/python.png"
     }
 ]
