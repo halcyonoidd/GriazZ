@@ -3,7 +3,7 @@
 </script>
 
 <section>
-    <div id="mainSection" class="bg-[url('/img/milesMorales.gif')] bg-cover bg-center min-h-screen flex flex-col bg-blend-overlay bg-black/80">
+    <div id="mainSection" class="bg-[url('/img/milesMorales.webp')] bg-cover bg-center min-h-screen flex flex-col bg-blend-overlay bg-black/80">
         <main class="flex-grow flex items-center justify-center">
             <div class="text-left text-white px-4 mr-25 mt-25 mb-10">
                 <h1 class="text-5xl font-bold mb-2 text-left">Agri Azzukhruf</h1>
@@ -40,7 +40,7 @@
                 </div>
             </div>
 
-            <div class="bg-[url('/img/fotoAgri2.jpg')] bg-cover bg-center bg-black/60 hidden md:block w-1/3 h-96 rounded-lg mr-10 hover:rotate-0 hover:scale-105 transition-all duration-500"></div>
+            <div class="bg-[url('/img/fotoAgri2.webp')] bg-cover bg-center bg-black/60 hidden md:block w-1/3 h-96 rounded-lg mr-10 hover:rotate-0 hover:scale-105 transition-all duration-500"></div>
         </main>
     </div>
 
@@ -70,7 +70,7 @@
                     <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 rotate-2 z-20 
                                 hover:rotate-0 hover:scale-105 transition-all duration-500">
                         <div class="absolute inset-0 rounded-3xl"></div>
-                        <img src="/img/fotoAgri.jpg" 
+                        <img src="/img/fotoAgri.webp" 
                              alt="Agri Azzukhruf" 
                              class="relative w-48 h-64 object-cover rounded-2xl shadow-2xl border-4 border-white/10">
                     </div>
@@ -78,7 +78,7 @@
                     <div class="absolute top-8 right-4 rotate-6 z-10
                                 hover:rotate-3 hover:scale-105 transition-all duration-500">
                         <div class="absolute inset-0 rounded-3xl"></div>
-                        <img src="/img/fotoAgri5.jpeg" 
+                        <img src="/img/fotoAgri5.webp" 
                              alt="Agri Azzukhruf" 
                              class="relative w-32 h-40 object-cover rounded-xl shadow-2xl border-4 border-white/10">
                     </div>
@@ -86,7 +86,7 @@
                     <div class="absolute bottom-4 left-8 -rotate-6 z-10
                                 hover:-rotate-3 hover:scale-105 transition-all duration-500">
                         <div class="absolute inset-0 rounded-3xl"></div>
-                        <img src="/img/fotoAgri3.jpg" 
+                        <img src="/img/fotoAgri3.webp" 
                              alt="Agri Azzukhruf" 
                              class="relative w-36 h-44 object-cover rounded-xl shadow-2xl border-4 border-white/10">
                     </div>
