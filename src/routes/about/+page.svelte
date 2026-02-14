@@ -2,10 +2,11 @@
     import educationData from '$lib/assets/JSON/education.json';
     import organizationData from '$lib/assets/JSON/organization.json';
     import achievementData from '$lib/assets/JSON/achievement.json';
+    import experienceData from '$lib/assets/JSON/experience.json';
 
-    let activeTab: 'education' | 'organization' | 'achievement' = 'education';
+    let activeTab: 'education' | 'organization' | 'achievement' | 'experience' = 'education';
 
-    function changeTab(tab: 'education' | 'organization' | 'achievement') {
+    function changeTab(tab: 'education' | 'organization' | 'achievement' | 'experience') {
         activeTab = tab;
     }
 </script>
@@ -57,6 +58,12 @@
             >
                 Achievement
             </button>
+            <button
+                on:click={() => changeTab('experience')}
+                class="flex-1 px-6 py-4 text-center font-semibold transition-all duration-300 {activeTab === 'experience' ? 'bg-gradient-to-r from-red-600 to-red-700 text-white' : 'text-gray-300 hover:text-cyan-400 hover:bg-gray-800/50'}"
+            >
+                Experience
+            </button>
         </nav>
 
         <div class="p-8">
@@ -101,6 +108,14 @@
                     {/each}
                 </div>
             {/if}
-        </div>
-    </div>
-</section>
+
+            {#if activeTab === 'experience'}
+                <div class="space-y-6">
+                    <h3 class="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-cyan-400 mb-4">My Experiences</h3>
+                    {#each experienceData as exp}
+                        <div class="bg-gray-800/40 p-6 rounded-lg shadow-lg border border-red-500/20 hover:border-cyan-400/40 transition-all duration-300 hover:shadow-red-500/20 hover:scale-[1.02] transition-transform duration-300">
+                            <h4 class="text-xl font-semibold text-gray-100 mb-2">{exp.title}</h4>
+                            <p class="text-red-400 font-medium mb-1">{exp.role}</p>
+                            <p class="text-sm text-cyan-400 mb-3">{exp.period}</p>
+                            <p class="text-gray-300">{exp.description}</p>
+                        </div>
