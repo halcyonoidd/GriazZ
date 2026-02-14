@@ -109,13 +109,19 @@
                 </div>
             {/if}
 
-            {#if activeTab === 'experience'}
-                <div class="space-y-6">
-                    <h3 class="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-cyan-400 mb-4">My Experiences</h3>
-                    {#each experienceData as exp}
-                        <div class="bg-gray-800/40 p-6 rounded-lg shadow-lg border border-red-500/20 hover:border-cyan-400/40 transition-all duration-300 hover:shadow-red-500/20 hover:scale-[1.02] transition-transform duration-300">
-                            <h4 class="text-xl font-semibold text-gray-100 mb-2">{exp.title}</h4>
-                            <p class="text-red-400 font-medium mb-1">{exp.role}</p>
-                            <p class="text-sm text-cyan-400 mb-3">{exp.period}</p>
-                            <p class="text-gray-300">{exp.description}</p>
-                        </div>
+                        {#if activeTab === 'experience'}
+                            <div class="space-y-6">
+                                <h3 class="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-cyan-400 mb-4">My Experiences</h3>
+                                {#each experienceData as exp}
+                                    <div class="bg-gray-800/40 p-6 rounded-lg shadow-lg border border-red-500/20 hover:border-cyan-400/40 transition-all duration-300 hover:shadow-red-500/20 hover:scale-[1.02] transition-transform duration-300">
+                                        <h4 class="text-xl font-semibold text-gray-100 mb-2">{exp.title}</h4>
+                                        <p class="text-red-400 font-medium mb-1">{exp.company}</p>
+                                        <p class="text-sm text-cyan-400 mb-3">{exp.period}</p>
+                                        <p class="text-gray-300">{exp.description}</p>
+                                    </div>
+                                {/each}
+                            </div>
+                        {/if}
+                    </div>
+                </div>
+            </section>  
