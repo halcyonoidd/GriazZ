@@ -8,20 +8,8 @@
         "icon": "/img/css.png"
     },
     {
-        "name": "JavaScript",
-        "icon": "/img/javaScript.png"
-    },
-    {
         "name": "Svelte",
         "icon": "/img/svelte.png"
-    },
-    {
-        "name": "Python",
-        "icon": "/img/python.png"
-    },
-    {
-        "name": "C++",
-        "icon": "/img/c++.png"
     },
     {
         "name": "PostgreSQL",
@@ -32,28 +20,11 @@
         "icon": "/img/tailwind.png"
     },
     {
-        "name": "Fedora",
-        "icon": "/img/fedora.png"
-    },
-    {
-        "name": "Github",
-        "icon": "/img/github.png",
-        "needsBackground": true
-    },
-    {
         "name": "Laravel",
         "icon": "/img/laravel.png"
     },
     {
         "name": "PHP",
         "icon": "/img/php.png"
-    },
-    {
-        "name": "TypeScript",
-        "icon": "/img/typescript.png"
-    },
-    {
-        "name": "React.js",
-        "icon": "/img/reactJS.png"
     }
 ]
