@@ -17,7 +17,7 @@
     "gallery": ["/img/Portofolio_landing.png", "/img/Portofolio_about.png", "/img/Portofolio_tech.png", "/img/Portofolio_projects.png"],
     "link": "https://griazz.netlify.app",
     "source": "https://github.com/halcyonoidd/GriazZ",
-    "technologies": ["Svelte", "Tailwind", "TypeScript"]
+    "technologies": ["Svelte", "Tailwind"]
   },
   {
     "title": "DaichiNo",
