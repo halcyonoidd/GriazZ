@@ -4,10 +4,11 @@
 
 <section>
     <div id="mainSection" class="bg-[url('/img/milesMorales.webp')] bg-cover bg-center min-h-screen flex flex-col bg-blend-overlay bg-black/80">
-        <main class="flex-grow flex items-center justify-center">
-            <div class="text-left text-white px-4 mr-25 mt-25 mb-10">
+        <main class="flex-grow flex flex-col items-center justify-center md:flex-row">
+            <div class="order-2 md:order-1 text-left text-white px-4 mr-25 mt-25 mb-10">
                 <h1 class="text-5xl font-bold mb-2 text-left">Agri Azzukhruf</h1>
                     <p class="text-lg text-gray-400 mb-7">Surabaya, Indonesia</p>
+                    <div class="md:hidden bg-[url('/img/fotoAgri2.webp')] bg-cover bg-center bg-black/60 w-full max-w-md h-80 sm:h-96 mb-7 rounded-lg mx-auto"></div>
                     <p class="text-lg mb-8 max-w-2xl mx-auto text-left">
                         Passionate about crafting intuitive and dynamic web experiences. I focus on building responsive, high-performance websites that bring creative ideas to life.
                     </p>
@@ -40,7 +41,7 @@
                 </div>
             </div>
 
-            <div class="bg-[url('/img/fotoAgri2.webp')] bg-cover bg-center bg-black/60 hidden md:block w-1/3 h-96 rounded-lg mr-10 hover:rotate-0 hover:scale-105 transition-all duration-500"></div>
+            <div class="order-1 md:order-2 hidden md:block bg-[url('/img/fotoAgri2.webp')] bg-cover bg-center bg-black/60 w-full max-w-md h-80 sm:h-96 md:w-1/3 md:h-96 mt-6 md:mt-0 mx-auto md:mx-0 md:mr-10 rounded-lg hover:rotate-0 hover:scale-105 transition-all duration-500"></div>
         </main>
     </div>
 
@@ -66,29 +67,29 @@
         
         <div class="max-w-7xl mx-auto px-4">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-                <div class="relative h-96 max-w-md mx-auto md:mx-0">
+                <div class="relative h-80 sm:h-96 w-full max-w-md mx-auto md:mx-0">
                     <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 rotate-2 z-20 
                                 hover:rotate-0 hover:scale-105 transition-all duration-500">
                         <div class="absolute inset-0 rounded-3xl"></div>
-                        <img src="/img/fotoAgri.webp" 
-                             alt="Agri Azzukhruf" 
-                             class="relative w-48 h-64 object-cover rounded-2xl shadow-2xl border-4 border-white/10">
+                            <img src="/img/fotoAgri.webp" 
+                                alt="Agri Azzukhruf" 
+                                class="relative w-36 h-48 sm:w-48 sm:h-64 object-cover rounded-2xl shadow-2xl border-4 border-white/10">
                     </div>
                     
                     <div class="absolute top-8 right-4 rotate-6 z-10
                                 hover:rotate-3 hover:scale-105 transition-all duration-500">
                         <div class="absolute inset-0 rounded-3xl"></div>
-                        <img src="/img/fotoAgri5.webp" 
-                             alt="Agri Azzukhruf" 
-                             class="relative w-32 h-40 object-cover rounded-xl shadow-2xl border-4 border-white/10">
+                            <img src="/img/fotoAgri5.webp" 
+                                alt="Agri Azzukhruf" 
+                                class="relative w-24 h-32 sm:w-32 sm:h-40 object-cover rounded-xl shadow-2xl border-4 border-white/10">
                     </div>
 
                     <div class="absolute bottom-4 left-8 -rotate-6 z-10
                                 hover:-rotate-3 hover:scale-105 transition-all duration-500">
                         <div class="absolute inset-0 rounded-3xl"></div>
-                        <img src="/img/fotoAgri3.webp" 
-                             alt="Agri Azzukhruf" 
-                             class="relative w-36 h-44 object-cover rounded-xl shadow-2xl border-4 border-white/10">
+                            <img src="/img/fotoAgri3.webp" 
+                                alt="Agri Azzukhruf" 
+                                class="relative w-28 h-36 sm:w-36 sm:h-44 object-cover rounded-xl shadow-2xl border-4 border-white/10">
                     </div>
                 </div>
                 
