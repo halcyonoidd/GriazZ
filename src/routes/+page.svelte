@@ -5,15 +5,15 @@
 <section>
     <div id="mainSection" class="bg-[url('/img/milesMorales.webp')] bg-cover bg-center min-h-screen flex flex-col bg-blend-overlay bg-black/80">
         <main class="flex-grow flex flex-col items-center justify-center md:flex-row">
-            <div class="order-2 md:order-1 text-left text-white px-4 mr-25 mt-25 mb-10">
-                <h1 class="text-5xl font-bold mb-2 text-left">Agri Azzukhruf</h1>
-                    <p class="text-lg text-gray-400 mb-7">Surabaya, Indonesia</p>
-                    <div class="md:hidden bg-[url('/img/fotoAgri2.webp')] bg-cover bg-center bg-black/60 w-full max-w-md h-80 sm:h-96 mb-7 rounded-lg mx-auto"></div>
-                    <p class="text-lg mb-8 max-w-2xl mx-auto text-left">
+            <div class="order-2 md:order-1 text-center md:text-left text-white px-4 md:mr-25 mt-25 mb-10 mx-auto md:mx-0">
+                <h1 class="text-4xl sm:text-5xl font-bold mb-4">Agri Azzukhruf</h1>
+                    <p class="text-lg text-gray-400 mb-6">Surabaya, Indonesia</p>
+                    <div class="md:hidden bg-[url('/img/fotoAgri2.webp')] bg-cover bg-center bg-black/60 w-10/12 max-w-xs h-56 sm:h-72 mb-7 rounded-lg mx-auto"></div>
+                    <p class="text-lg mb-8 max-w-2xl mx-auto text-center md:text-left">
                         Passionate about crafting intuitive and dynamic web experiences. I focus on building responsive, high-performance websites that bring creative ideas to life.
                     </p>
                     
-                <div class="flex justify-start mb-8">
+                <div class="flex justify-center md:justify-start mb-8">
                     <a download="cv-en.pdf" href="/assets/cv/cv-en.pdf" class="text-white underline hover:text-gray-300 transition duration-300 inline-flex ">
                         <svg class="w-5 h-5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
