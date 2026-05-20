@@ -1,5 +1,21 @@
 [
   {
+    "title": "Citta App Design",
+    "description": "CITTA is a digital innovation designed to help people navigate their daily lives",
+    "fullDescription": "CITTA is a digital innovation designed to help people navigate their daily lives through intelligent, interactive journaling. By turning self-reflection into a warm dialogue, CITTA provides a safe space for users to unravel their thoughts and find clarity.",
+    "image": "/img/citta.jpg",
+    "gallery": ["/img/citta.jpg", "/img/citta3.jpg", "/img/citta4.jpg", "/img/citta5.jpg", "/img/citta2.jpg"],
+    "link": "https://www.figma.com/proto/nIYU6XjJto8280ecttHS0W/CITTA-APP-DESIGN?node-id=1-86&t=zWpkQVug42vbE32d-1"
+  },
+  {
+    "title": "ifLearning App Design",
+    "description": "Educational app design to enhance learning experiences for students.",
+    "fullDescription": "Interactive and Supportive Learning in Technology and Programming — iFLearning is an application designed as a learning tool for students to develop their skills in technology and programming. The application features an interactive user interface that makes the learning process comfortable and effective.",
+    "image": "/img/ifLearning.jpg",
+    "gallery": ["/img/ifLearning.jpg", "/img/ifLearning2.jpg", "/img/ifLearning3.jpg"],
+    "link": "https://griazz.netlify.app"
+  },
+  {
     "title": "My Tasks",
     "description": "A task management application to help users organize and prioritize their daily activities.",
     "fullDescription": "myTasks is a simple web application for personal productivity management. It helps users organize daily tasks, store important notes, and track wishlists in one centralized platform.",
