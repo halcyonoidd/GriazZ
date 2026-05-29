@@ -1,19 +1,21 @@
 [
   {
     "title": "Citta App Design",
-    "description": "CITTA is a digital innovation designed to help people navigate their daily lives",
-    "fullDescription": "CITTA is a digital innovation designed to help people navigate their daily lives through intelligent, interactive journaling. By turning self-reflection into a warm dialogue, CITTA provides a safe space for users to unravel their thoughts and find clarity.",
+    "description": "AI-based journaling app that helps people share theirday-to-day experiences.",
+    "fullDescription": "Citta is a digital innovation, an AI-based journaling app that helps people share their day-to-day experiences. Through intuitive and intelligent interactions, the helps individuals unravel the complexities of their thoughts in a safe digital space, transforming the habit of self-reflection into a personal, warm, and meaningful interactive dialogue.",
     "image": "/img/citta.jpg",
     "gallery": ["/img/citta.jpg", "/img/citta 3.jpg", "/img/citta 4.jpg", "/img/citta 5.jpg", "/img/citta 2.jpg"],
-    "link": "https://www.figma.com/proto/nIYU6XjJto8280ecttHS0W/CITTA-APP-DESIGN?node-id=1-86&t=zWpkQVug42vbE32d-1"
+    "link": "https://www.figma.com/proto/nIYU6XjJto8280ecttHS0W/CITTA-APP-DESIGN?node-id=328-1990&p=f&t=qBXUjuxTN9u8WPDK-1&scaling=scale-down&content-scaling=fixed&page-id=1%3A86&starting-point-node-id=328%3A1990",
+    "technologies": ["Figma"]
   },
   {
     "title": "ifLearning App Design",
     "description": "Educational app design to enhance learning experiences for students.",
-    "fullDescription": "Interactive and Supportive Learning in Technology and Programming — iFLearning is an application designed as a learning tool for students to develop their skills in technology and programming. The application features an interactive user interface that makes the learning process comfortable and effective.",
+    "fullDescription": "ifLearning application is a digital innovation designed to provide an effective, interactive, and accessible learning experience for students and university students who want to learn about technology and programming.",
     "image": "/img/ifLearning.jpg",
-    "gallery": ["/img/ifLearning.jpg", "/img/ifLearning2.jpg", "/img/ifLearning3.jpg"],
-    "link": "https://griazz.netlify.app"
+    "gallery": ["/img/ifLearning.jpeg", "/img/ifLearning 2.jpg", "/img/ifLearning 3.jpg", "/img/ifLearning 4.jpg"],
+    "link": "https://www.figma.com/proto/5Qrq6YNADPqF6S5C5Wf4fZ/iFLearning?node-id=19-2&p=f&t=05YwdTV174ylF1qV-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=423%3A1262",
+    "technologies": ["Figma"]
   },
   {
     "title": "My Tasks",
@@ -53,36 +55,6 @@
     "gallery": ["/img/Kopihariini_landing.png", "/img/Kopihariini_about.png", "/img/Kopihariini_menu.png", "/img/Kopihariini_contact.png"],
     "link": "https://github.com/halcyonoidd/Kopi-Hari-Ini.",
     "source": "https://github.com/halcyonoidd/Kopi-Hari-Ini.",
-    "technologies": ["HTML5", "CSS3", "JavaScript"]
-  },
-  {
-    "title": "Gearnix Store",
-    "description": "Gearnix Store is an e-commerce platform for selling gaming accessories.",
-    "fullDescription": "I built GearNix to demonstrate mastery of core web technologies by engineering a fully functional e-commerce site using only HTML5, CSS3, and Vanilla JavaScript. This project features a custom-built state management system for the shopping cart, modal-based product details, and a dynamic search filter. By leveraging efficient DOM manipulation and modern CSS techniques alongside Bootstrap, I created a lightweight, high-performance application that prioritizes speed and code efficiency.",
-    "image": "/img/Gearnix_landing.png",
-    "gallery": ["/img/Gearnix_landing.png", "/img/Gearnix_categories.png", "/img/Gearnix_products.png", "/img/Gearnix_detailProducts.png", "/img/Gearnix_cart.png", "/img/Gearnix_profil.png", "/img/Gearnix_checkout.png", "/img/Gearnix_history.png", "/img/Gearnix_detailHistory.png", "/img/Gearnix_detailHistory2.png"],
-    "link": "https://github.com/halcyonoidd/GearNix",
-    "source": "https://github.com/halcyonoidd/GearNix",
-    "technologies": ["HTML5", "CSS3", "JavaScript"]
-  },
-  {
-    "title": "Creative CV",
-    "description": "Creative CV is my online resume. It showcases my skills and experiences, in a visually appealing way.",
-    "fullDescription": "Creative CV is my online resume. It showcases my skills and experiences, in a visually appealing way.",
-    "image": "/img/CV_landing.png",
-    "gallery": ["/img/CV_landing.png", "/img/CV_landing2.png"],
-    "link": "https://github.com/halcyonoidd/cvCreative",
-    "source": "https://github.com/halcyonoidd/cvCreative",
-    "technologies": ["HTML5", "CSS3"]
-  },
-  {
-    "title": "Digital Clock",
-    "description": "Digital Clock is a very simple application that displays the current time and updates every second.",
-    "fullDescription": "Digital Clock is a very simple application that displays the current time and updates every second.",
-    "image": "/img/Clock_landing.png",
-    "gallery": ["/img/Clock_landing.png"],
-    "link": "https://github.com/halcyonoidd/Simple-Clock",
-    "source": "https://github.com/halcyonoidd/Simple-Clock",
     "technologies": ["HTML5", "CSS3", "JavaScript"]
   },
   {
