@@ -1,10 +1,20 @@
 [
   {
+    "title": "Project Portofolio Website",
+    "description": "GriazZLabs is a personal portfolio website designed to explain the process and backstory behind the projects showcased on GriazZ.",
+    "fullDescription": "GriazZLabs is a personal portfolio website designed to explain the process and backstory behind the projects showcased on GriazZ, providing a deeper understanding of the creative journey and development process. The website features detailed project descriptions, insights into the challenges faced, and the solutions implemented, allowing visitors to gain a comprehensive view of the work and the thought process behind it.",
+    "image": "/img/labsLightLanding.png",
+    "gallery": ["/img/labsLightLanding.png", "/img/labsLightStats.png", "/img/labsLightCard.png", "/img/labsLightProject.png", "/img/labsLightProject2.png", "/img/labsLightProject3.png", "/img/labsDarkLanding.png", "/img/labsDarkStats.png", "/img/labsDarkCard.png", "/img/labsDarkProject.png", "/img/labsDarkProject2.png", "/img/labsDarkProject3.png"],
+    "link": "https://griazz.netlify.app",
+    "source": "https://github.com/halcyonoidd/GriazZ",
+    "technologies": ["Svelte", "Tailwind"]
+  },
+  {
     "title": "Citta App Design",
     "description": "AI-based journaling app that helps people share theirday-to-day experiences.",
     "fullDescription": "Citta is a digital innovation, an AI-based journaling app that helps people share their day-to-day experiences. Through intuitive and intelligent interactions, the helps individuals unravel the complexities of their thoughts in a safe digital space, transforming the habit of self-reflection into a personal, warm, and meaningful interactive dialogue.",
     "image": "/img/citta.jpg",
-    "gallery": ["/img/citta.jpg", "/img/citta 3.jpg", "/img/citta 4.jpg", "/img/citta 5.jpg", "/img/citta 2.jpg"],
+    "gallery": ["/img/citta.jpg", "/img/citta 2.jpg", "/img/citta 3.jpg", "/img/citta 4.jpg", "/img/citta 5.jpg", "/img/citta 6.jpg"],
     "link": "https://www.figma.com/proto/nIYU6XjJto8280ecttHS0W/CITTA-APP-DESIGN?node-id=328-1990&p=f&t=qBXUjuxTN9u8WPDK-1&scaling=scale-down&content-scaling=fixed&page-id=1%3A86&starting-point-node-id=328%3A1990",
     "technologies": ["Figma"]
   },
@@ -12,8 +22,8 @@
     "title": "ifLearning App Design",
     "description": "Educational app design to enhance learning experiences for students.",
     "fullDescription": "ifLearning application is a digital innovation designed to provide an effective, interactive, and accessible learning experience for students and university students who want to learn about technology and programming.",
-    "image": "/img/ifLearning.jpg",
-    "gallery": ["/img/ifLearning.jpeg", "/img/ifLearning 2.jpg", "/img/ifLearning 3.jpg", "/img/ifLearning 4.jpg"],
+    "image": "/img/ifLearning.jpeg",
+    "gallery": ["/img/ifLearning.jpeg", "/img/ifLearning 2.jpeg", "/img/ifLearning 3.jpeg", "/img/ifLearning 4.jpeg"],
     "link": "https://www.figma.com/proto/5Qrq6YNADPqF6S5C5Wf4fZ/iFLearning?node-id=19-2&p=f&t=05YwdTV174ylF1qV-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=423%3A1262",
     "technologies": ["Figma"]
   },
