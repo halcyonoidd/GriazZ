@@ -1,5 +1,14 @@
 <script lang="ts">
     import technologies from '$lib/assets/JSON/technologies.json';
+
+    type Technology = {
+        name: string;
+        icon: string;
+        needsBackground?: boolean;
+        hoverColor?: string;
+    };
+
+    const techList = technologies as Technology[];
 </script>
 
 <section>
@@ -131,7 +140,7 @@
                 <h2 class="text-5xl font-bold mb-20 text-white">Most Used Technologies</h2>
                 
                 <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6 md:gap-8">
-                    {#each technologies as tech}
+                    {#each techList as tech}
                         <div class="group relative flex flex-col items-center p-6 bg-gradient-to-br from-slate-800/60 to-slate-900/60 backdrop-blur-md rounded-2xl border border-white/10 transition-all duration-500 hover:-translate-y-3 hover:scale-105 hover:border-{tech.hoverColor || 'red-500'}/70 hover:shadow-[0_8px_40px_rgba(255,255,255,0.4)] hover:bg-gradient-to-br hover:from-{tech.hoverColor || 'red-500'}/10 hover:to-slate-900/60">
                             <img 
                                 src={tech.icon} 

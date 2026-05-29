@@ -6,6 +6,17 @@
         (technologies as Array<{ name: string; icon: string; needsBackground?: boolean }>).map((t) => [t.name, { icon: t.icon, needsBackground: t.needsBackground }])
     );
 
+    const griazzLabsProjectLinks: Record<string, string> = {
+        'Project Portofolio Website': 'https://griazzlabs.netlify.app/project/GriazZLabs',
+        'Citta App Design': 'https://griazzlabs.netlify.app/project/Citta%20App%20Design',
+        'ifLearning App Design': 'https://griazzlabs.netlify.app/project/ifLearning%20App%20Design',
+        'Portfolio Website': 'https://griazzlabs.netlify.app/project/GriazZ',
+        DaichiNo: 'https://griazzlabs.netlify.app/project/DaichiNo',
+    };
+
+    const getBackstoryLink = (projectTitle: string) =>
+        griazzLabsProjectLinks[projectTitle] ?? `https://griazzlabs.netlify.app/project/${encodeURIComponent(projectTitle)}`;
+
     let selectedProject: (typeof projectData)[number] | null = null;
     let activeGalleryIndex = 0;
     $: galleryImages = selectedProject
@@ -162,6 +173,16 @@
                                 </div>
                                 {/if}
                             </div>
+                            <div class="flex flex-wrap gap-3">
+                                <a
+                                    class="inline-flex items-center justify-center gap-2 px-4 py-3 bg-sky-500 text-gray-950 rounded-lg font-semibold hover:bg-sky-400 transition w-fit min-w-[150px] h-fit"
+                                    href={getBackstoryLink(selectedProject.title)}
+                                    target="_blank"
+                                    rel="noreferrer"
+                                >
+                                    Backstory di GriazZLabs
+                                    <span aria-hidden="true">↗</span>
+                                </a>
                             {#if selectedProject.source}
                                 <a
                                     class="inline-flex items-center justify-center gap-2 px-4 py-3 bg-white text-gray-900 rounded-lg font-semibold hover:bg-gray-200 transition w-fit min-w-[150px] h-fit"
@@ -173,6 +194,7 @@
                                     <span aria-hidden="true">→</span>
                                 </a>
                             {/if}
+                            </div>
                         </div>
                     </div>
                 </div>
