@@ -18,7 +18,7 @@
             I'm Agri Azzukhruf, an undergraduate Computer Science student at Universitas Negeri Surabaya with passionate to learn how to create beautiful and functional web applications.
         </p>
         <p class="text-gray-100 mb-8 leading-relaxed">
-            I primarily focus on web development especially on backend development while also contributing to frontend development. Feel free to reach out if you'd like to collaborate or just say hi!
+            I primarily focus on web development especially on design and frontend development while also contributing to backend development. Feel free to reach out if you'd like to collaborate or just say hi!
         </p>
         <div>
             <a href="/contact" class="inline-block px-6 py-2 bg-gradient-to-r from-red-600 to-red-700 text-white rounded-lg hover:from-cyan-500 hover:to-cyan-600 transition-all duration-300 font-semibold shadow-lg hover:shadow-cyan-500/50 hover:scale-105 transform">
