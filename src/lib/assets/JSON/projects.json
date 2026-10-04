@@ -1,5 +1,16 @@
 [
   {
+    "title": "GoMind",
+    "description": "A browser-based 9x9 Go AI web game featuring Monte Carlo Tree Search and Policy Network.",
+    "fullDescription": "GoMind is a browser-based 9x9 Go AI web game developed with a single-file React architecture. It features a complete Go game engine that implements Monte Carlo Tree Search (MCTS) and Policy Network concepts to create an interactive AI opponent.",
+    "image": "/img/goMind.png",
+    "gallery": ["/img/goMind.png"],
+    "link": "gomind-ml.netlify.app",
+    "source": "https://github.com/halcyonoidd/GoMind",
+    "technologies": ["Typescript", "React.js"]
+  },
+
+  {
     "title": "Project Portofolio Website",
     "description": "GriazZLabs is a personal portfolio website designed to explain the process and backstory behind the projects showcased on GriazZ.",
     "fullDescription": "GriazZLabs is a personal portfolio website designed to explain the process and backstory behind the projects showcased on GriazZ, providing a deeper understanding of the creative journey and development process. The website features detailed project descriptions, insights into the challenges faced, and the solutions implemented, allowing visitors to gain a comprehensive view of the work and the thought process behind it.",
